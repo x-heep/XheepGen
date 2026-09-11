@@ -14,5 +14,3 @@ endif
 # Runs black formating for python files
 format-python:
 	$(PYTHON) -m black .
-
-.PHONY: format-python test
